@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-platform-phase14",
+  "homepage": "https://RehamKashkoush.github.io/Spark-Ecommerce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev:api": "npm --prefix server run dev",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:api\""
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.2",
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.9.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.0.5"
+  }
+}

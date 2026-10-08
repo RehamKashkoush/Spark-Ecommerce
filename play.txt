@@ -1,0 +1,31 @@
+================== IN Treminal =========================
+npm install
+cd server
+npm install
+cd ..
+npm run dev:all
+
+1
+================== IN AI Chatbot =========================
+send a headphone image
+send a laptop image
+send an egg image
+What is JavaScript?
+Explain artificial intelligence
+Write a short paragraph about cats
+my name is reham 
+what is my name?
+what is price of watch?
+
+
+================== IN Login / Passwords =========================
+ Customer
+Email: customer@spark.test
+Password: Customer123!
+ Seller
+Email: seller@spark.test
+Password: Seller123!
+ Admin
+Email: admin@spark.test
+Password: Admin123!
+==================================================================
